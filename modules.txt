@@ -1,0 +1,4 @@
+3 type
+>core module
+>local module
+>third-party 

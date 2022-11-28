@@ -1,0 +1,2 @@
+> var attached with global variable 
+> let and const doesn't attach globally

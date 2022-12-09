@@ -4,4 +4,8 @@
 // const res1 = sub(2, 1);
 // console.log(res1);
 const http = require("http");
-console.log(http);
+const server = http.createServer((req, res) => {
+  res.end("hello server");
+});
+server.listen(5000);
+console.log("hello");

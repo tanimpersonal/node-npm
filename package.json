@@ -1,7 +1,6 @@
 {
   "name": "npm-package",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +11,17 @@
   "dependencies": {
     "node": "^19.1.0",
     "underscore": "^1.13.6"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanimpersonal/node-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tanimpersonal/node-npm/issues"
+  },
+  "homepage": "https://github.com/tanimpersonal/node-npm#readme",
+  "description": ""
 }
